@@ -1,0 +1,42 @@
+plans:
+  - name: Free
+    description: For individual developers exploring Tenderly tools. Provides access to the dashboard, single-chain debugger, gas profiler, and one-transaction UI simulation with no API access.
+    url: https://tenderly.co/pricing
+    price: Free
+    pricingModel: free
+    features:
+      - Single-chain transaction explorer
+      - Basic debugger with call traces
+      - Gas profiling
+      - Fund flow visualization
+      - Single-transaction UI simulation (no API)
+      - Contract verification
+      - No Node RPC access
+    rateLimits:
+      - description: No API access on Free plan
+  - name: Console (Paid)
+    description: For professional teams and organizations. Provides full multichain access, API access, team workspaces, advanced monitoring, Node RPC, and customizable capacity scoped by networks, usage, and support tier.
+    url: https://tenderly.co/pricing
+    price: Custom (contact sales)
+    pricingModel: custom
+    features:
+      - Full REST API access
+      - Multichain explorer (100+ networks)
+      - Node RPC (80+ EVM networks)
+      - Virtual TestNets with unlimited faucet
+      - Simulation API
+      - Alerts and monitoring
+      - Web3 Actions (serverless functions)
+      - Team workspaces and collaboration
+      - Contract verification (public and private)
+      - Bridge decoding and account abstraction support
+      - Advanced filtering and address management
+      - Custom capacity quotas
+      - Custom support tier
+    rateLimits:
+      - description: Tenderly Units (TU) quota set per contract — contact sales for specifics
+      - description: Web3 Actions sequential limit — 100 executions per 5 minutes
+      - description: Web3 Actions parallel limit — 2000 executions per 5 minutes
+      - description: Web3 Actions timeout — 30 seconds default, up to 900 seconds
+      - description: Web3 Actions package size — 40 MB maximum (including node_modules)
+      - description: Web3 Actions memory — 128 MB RAM

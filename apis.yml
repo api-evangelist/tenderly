@@ -1,0 +1,160 @@
+name: Tenderly
+description: Tenderly is a Web3 development platform offering smart contract debugging, transaction simulation, virtual test environments, node RPC infrastructure, alerting, Web3 Actions serverless functions, and gas profiling across 80+ EVM-compatible blockchain networks.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/tenderly/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Web3
+  - Blockchain
+  - Smart Contracts
+  - Ethereum
+  - EVM
+  - Debugging
+  - Simulation
+  - Developer Tools
+apis:
+  - name: Tenderly REST API
+    description: Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual test environments.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/reference/api
+    baseURL: https://api.tenderly.co/api/v2
+    tags:
+      - Simulations
+      - Alerts
+      - Smart Contracts
+      - Wallets
+      - Web3 Actions
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/reference/api
+      - type: OpenAPI
+        url: https://docs.tenderly.co/reference/api
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+        email: support@tenderly.co
+  - name: Tenderly Simulation API
+    description: Dry-run Ethereum and EVM transactions before execution to preview outcomes including asset and balance changes, gas estimates, decoded traces, state diffs, and human-readable error messages across 100+ networks.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/simulations
+    baseURL: https://api.tenderly.co/api/v2
+    tags:
+      - Simulation
+      - Gas Estimation
+      - Transaction Preview
+      - State Override
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/simulations
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+  - name: Tenderly Virtual TestNets REST API
+    description: Provision and manage production-mirroring virtual blockchain environments with state sync, unlimited faucets, cheatcodes, cross-chain bridge simulation, and a shareable block explorer for safe dapp development and CI/CD testing.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/virtual-testnets/develop/rest-api
+    baseURL: https://api.tenderly.co/api/v2
+    tags:
+      - Virtual TestNets
+      - Forking
+      - Testing
+      - Environments
+      - Cross-Chain
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/virtual-testnets/develop/rest-api
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+  - name: Tenderly Node RPC
+    description: Production-grade JSON-RPC node infrastructure supporting 80+ EVM networks including Ethereum, Arbitrum, Optimism, Polygon, Base, BSC, and Avalanche with built-in simulation, smart multi-region routing, and debug and trace methods.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/node
+    baseURL: https://mainnet.gateway.tenderly.co
+    tags:
+      - Node RPC
+      - JSON-RPC
+      - Ethereum
+      - EVM
+      - Infrastructure
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/node
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+  - name: Tenderly Alerts API
+    description: Configure real-time on-chain event monitoring for smart contracts and wallets, and route alert notifications to email, Slack, Discord, webhooks, PagerDuty, and Web3 Actions.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/alerts
+    baseURL: https://api.tenderly.co/api/v2
+    tags:
+      - Alerts
+      - Monitoring
+      - Webhooks
+      - Notifications
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/alerts
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+  - name: Tenderly Web3 Actions API
+    description: Deploy and manage serverless JavaScript/TypeScript functions triggered by on-chain or off-chain events, enabling custom monitoring automation, incident response, and backend integrations without managing infrastructure.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tenderly.co/web3-actions
+    baseURL: https://api.tenderly.co/api/v2
+    tags:
+      - Web3 Actions
+      - Serverless
+      - Automation
+      - Event-Driven
+    properties:
+      - type: Documentation
+        url: https://docs.tenderly.co/web3-actions
+      - type: RateLimits
+        url: https://docs.tenderly.co/web3-actions/usage-rate-limits
+    contact:
+      - FN: Tenderly Support
+        url: https://tenderly.co/contact
+common:
+  - type: Portal
+    url: https://tenderly.co
+  - type: Documentation
+    url: https://docs.tenderly.co
+  - type: Pricing
+    url: https://tenderly.co/pricing
+  - type: Plans
+    url: https://docs.tenderly.co/tenderly-plans
+  - type: Sign Up
+    url: https://dashboard.tenderly.co/register
+  - type: Login
+    url: https://dashboard.tenderly.co/login
+  - type: Blog
+    url: https://blog.tenderly.co
+  - type: Status
+    url: https://status.tenderly.co
+  - type: GitHub
+    url: https://github.com/tenderly
+  - type: CLI
+    url: https://github.com/Tenderly/tenderly-cli
+  - type: SDK
+    url: https://github.com/Tenderly/tenderly-docs
+  - type: Terms of Service
+    url: https://tenderly.co/terms-of-service
+  - type: Privacy Policy
+    url: https://tenderly.co/privacy-policy
+  - type: Contact
+    url: https://tenderly.co/contact
+  - type: Twitter
+    url: https://twitter.com/TenderlyApp
+  - type: Discord
+    url: https://discord.gg/fBvDJYR
+  - type: Authentication
+    url: https://docs.tenderly.co/other/platform-access/how-to-generate-api-access-tokens
+maintainers:
+  - FN: Kin Lane
+    url: https://apievangelist.com
+    email: kin@apievangelist.com

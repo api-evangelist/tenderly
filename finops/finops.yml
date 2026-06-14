@@ -1,0 +1,54 @@
+finops:
+  provider: Tenderly
+  description: Tenderly uses a consumption-based pricing model expressed in Tenderly Units (TU). Usage is metered across Node RPC requests, simulations, and platform operations. Paid plans are contract-based with custom quotas rather than self-serve tiered pricing.
+  url: https://tenderly.co/pricing
+  pricingModel: consumption-based-custom-contract
+  currency: USD
+  billingPeriod: monthly (per contract terms)
+  unitOfMeasure:
+    name: Tenderly Units (TU)
+    description: Abstract compute unit used to normalize costs across read, write, compute, and advanced operations. Analogous to cloud provider compute units (AWS, GCP).
+    url: https://docs.tenderly.co/node/pricing
+  operationCosts:
+    - operation: Read operations (Node RPC)
+      cost: 1 TU
+    - operation: Compute operations (Node RPC)
+      cost: 4 TU
+    - operation: Write operations (Node RPC)
+      cost: 20 TU
+    - operation: Debug and Trace (Node RPC)
+      cost: 40 TU
+    - operation: Advanced Compute 1 (Node RPC)
+      cost: 40 TU
+    - operation: Advanced Compute 2 (Node RPC)
+      cost: 400 TU
+  plans:
+    - name: Free
+      price: 0
+      nodeRPC: false
+      apiAccess: false
+      simulationAPI: false
+      quotaTU: none
+    - name: Console (Paid)
+      price: Custom (contact sales)
+      nodeRPC: true
+      apiAccess: true
+      simulationAPI: true
+      quotaTU: Custom per contract
+      billingNotes: >
+        Pricing is fully customized based on networks required, capacity (TU quota),
+        support level, and data history retention. No published per-seat or
+        per-request list price. One contract, one invoice model.
+  costOptimizationTips:
+    - Use read operations where possible; avoid debug/trace calls in hot paths (40x more expensive than reads)
+    - Batch simulation calls to reduce per-request overhead
+    - Use Virtual TestNets for development and staging to avoid mainnet RPC costs
+    - Monitor TU consumption via the Tenderly dashboard to avoid overage
+    - Prefer Access List generation via Simulation API to reduce on-chain gas costs
+  contacts:
+    - type: Sales
+      url: https://tenderly.co/contact
+    - type: Pricing Page
+      url: https://tenderly.co/pricing
+    - type: Documentation
+      url: https://docs.tenderly.co/node/pricing

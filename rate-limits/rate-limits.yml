@@ -1,0 +1,53 @@
+rateLimits:
+  - api: Tenderly Node RPC
+    description: Node RPC usage is metered in Tenderly Units (TU). Each request type has a distinct TU weight. Node RPC is not available on the Free plan.
+    url: https://docs.tenderly.co/node/pricing
+    units: Tenderly Units (TU)
+    tiers:
+      - name: Free
+        available: false
+        note: Node RPC requires a paid plan
+      - name: Console (Paid)
+        available: true
+        note: Custom TU quota negotiated per contract
+    costPerOperation:
+      - operation: Read operations
+        cost: 1 TU per request
+      - operation: Compute operations
+        cost: 4 TU per request
+      - operation: Write operations
+        cost: 20 TU per request
+      - operation: Debug and Trace
+        cost: 40 TU per request
+      - operation: Advanced Compute 1
+        cost: 40 TU per request
+      - operation: Advanced Compute 2
+        cost: 400 TU per request
+  - api: Tenderly Web3 Actions
+    description: Web3 Actions execution is subject to hard rate limits on sequential and parallel executions. Executions over the limit are skipped and the user is notified by email.
+    url: https://docs.tenderly.co/web3-actions/usage-rate-limits
+    limits:
+      - type: Sequential execution rate
+        value: 100 executions per 5 minutes
+        customizable: false
+      - type: Parallel execution rate
+        value: 2000 executions per 5 minutes
+        customizable: false
+      - type: Execution timeout (default)
+        value: 30 seconds
+        customizable: true
+        maximum: 900 seconds
+      - type: Memory
+        value: 128 MB RAM
+        customizable: false
+      - type: Package size
+        value: 40 MB (zipped, including node_modules)
+        customizable: false
+  - api: Tenderly Simulation API
+    description: Simulation API access is included in paid Console plans. Limits and quotas are governed by the Tenderly Units system negotiated per contract.
+    url: https://docs.tenderly.co/simulations
+    note: No specific per-call rate limit published; governed by overall TU quota
+  - api: Tenderly Alerts API
+    description: Alert delivery and configuration are included in paid Console plans. Specific rate limits are not published; contact sales for capacity details.
+    url: https://docs.tenderly.co/alerts
+    note: No specific per-call rate limit published; contact sales for capacity
