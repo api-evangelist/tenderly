@@ -1,0 +1,36 @@
+{
+  "url": "https://tenderly.co/blog/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Tenderly Is Now the Simulation Company for Onchain Operations",
+      "url": "https://tenderly.co/blog/simulation-company-for-onchain-operations/",
+      "date": "2026-06-08",
+      "summary": "The platform expanded its capabilities to enable teams to model every onchain move before capital is exposed."
+    },
+    {
+      "title": "Explore Aave, Uniswap & Morpho in Context With DeFi Modules",
+      "url": "https://tenderly.co/blog/changelog/explore-aave-uniswap-morpho-defi-modules/",
+      "date": "2026-06-08",
+      "summary": "New DeFi module features for examining major protocols including Aave, Uniswap, and Morpho in context."
+    },
+    {
+      "title": "Impersonate Any Account Across the Dashboard With Simulation Mode",
+      "url": "https://tenderly.co/blog/changelog/impersonate-any-account-with-simulation-mode/",
+      "date": "2026-06-08",
+      "summary": "Simulation capability allowing account impersonation functionality across the Tenderly dashboard."
+    },
+    {
+      "title": "Preview Multi-Step Flows With Simulation Bundles",
+      "url": "https://tenderly.co/blog/changelog/preview-multi-step-flows-with-simulation-bundles/",
+      "date": "2026-06-08",
+      "summary": "Feature for testing complex multi-step transaction sequences before executing them on-chain."
+    },
+    {
+      "title": "Test Against Live Mainnet State With Network Mirror Mode and Historical Replay",
+      "url": "https://tenderly.co/blog/changelog/network-mirror-mode-and-historical-replay/",
+      "date": "2026-06-08",
+      "summary": "Test smart contracts against live mainnet state using network mirror mode and historical transaction replay."
+    }
+  ]
+}

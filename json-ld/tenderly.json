@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Tenderly",
+  "description": "Tenderly is a Web3 development platform offering smart contract debugging, transaction simulation, virtual test environments, node RPC infrastructure, alerting, Web3 Actions serverless functions, and gas profiling across 80+ EVM-compatible blockchain networks.",
+  "url": "https://tenderly.co",
+  "logo": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/tenderly",
+    "https://twitter.com/TenderlyApp",
+    "https://discord.gg/fBvDJYR"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://tenderly.co/contact",
+    "email": "support@tenderly.co",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tenderly API Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Tenderly REST API",
+        "description": "Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual test environments.",
+        "url": "https://docs.tenderly.co/reference/api"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenderly Simulation API",
+        "description": "Dry-run Ethereum and EVM transactions before execution to preview outcomes including asset and balance changes, gas estimates, decoded traces, state diffs, and human-readable error messages across 100+ networks.",
+        "url": "https://docs.tenderly.co/simulations"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenderly Virtual TestNets REST API",
+        "description": "Provision and manage production-mirroring virtual blockchain environments with state sync, unlimited faucets, cheatcodes, cross-chain bridge simulation, and a shareable block explorer.",
+        "url": "https://docs.tenderly.co/virtual-testnets/develop/rest-api"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenderly Node RPC",
+        "description": "Production-grade JSON-RPC node infrastructure supporting 80+ EVM networks with built-in simulation, smart multi-region routing, and debug and trace methods.",
+        "url": "https://docs.tenderly.co/node"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenderly Alerts API",
+        "description": "Configure real-time on-chain event monitoring for smart contracts and wallets, routing alert notifications to email, Slack, Discord, webhooks, PagerDuty, and Web3 Actions.",
+        "url": "https://docs.tenderly.co/alerts"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenderly Web3 Actions API",
+        "description": "Deploy and manage serverless JavaScript/TypeScript functions triggered by on-chain or off-chain events for custom monitoring automation, incident response, and backend integrations.",
+        "url": "https://docs.tenderly.co/web3-actions"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Web3",
+    "Blockchain",
+    "Smart Contracts",
+    "Ethereum",
+    "EVM",
+    "Transaction Simulation",
+    "Debugging",
+    "Developer Tools"
+  ]
+}
