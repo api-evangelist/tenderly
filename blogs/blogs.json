@@ -1,6 +1,6 @@
 {
   "url": "https://tenderly.co/blog/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Tenderly Is Now the Simulation Company for Onchain Operations",
@@ -32,5 +32,16 @@
       "date": "2026-06-08",
       "summary": "Test smart contracts against live mainnet state using network mirror mode and historical transaction replay."
     }
-  ]
+  ],
+  "repo": "tenderly",
+  "feeds": [
+    {
+      "source": "https://dashboard.tenderly.co/login",
+      "feed_url": "https://dashboard.tenderly.co/login",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
