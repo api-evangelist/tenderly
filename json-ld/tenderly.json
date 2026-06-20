@@ -4,7 +4,7 @@
   "name": "Tenderly",
   "description": "Tenderly is a Web3 development platform offering smart contract debugging, transaction simulation, virtual test environments, node RPC infrastructure, alerting, Web3 Actions serverless functions, and gas profiling across 80+ EVM-compatible blockchain networks.",
   "url": "https://tenderly.co",
-  "logo": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/tenderly",
     "https://twitter.com/TenderlyApp",
