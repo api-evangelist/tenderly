@@ -128,7 +128,7 @@ common:
     url: https://tenderly.co/pricing
   - type: Plans
     url: https://docs.tenderly.co/tenderly-plans
-  - type: Sign Up
+  - type: Signup
     url: https://dashboard.tenderly.co/register
   - type: Login
     url: https://dashboard.tenderly.co/login
@@ -140,11 +140,11 @@ common:
     url: https://github.com/tenderly
   - type: CLI
     url: https://github.com/Tenderly/tenderly-cli
-  - type: SDK
+  - type: SDKs
     url: https://github.com/Tenderly/tenderly-docs
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://tenderly.co/terms-of-service
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://tenderly.co/privacy-policy
   - type: Contact
     url: https://tenderly.co/contact
