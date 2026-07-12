@@ -120,6 +120,8 @@ apis:
       - FN: Tenderly Support
         url: https://tenderly.co/contact
 common:
+  - type: DomainSecurity
+    url: security/tenderly-domain-security.yml
   - type: Portal
     url: https://tenderly.co
   - type: Documentation

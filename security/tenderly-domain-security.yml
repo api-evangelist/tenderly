@@ -1,0 +1,27 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: tenderly.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 24 15:33:17 2026 GMT
+  hsts: null
+- host: docs.tenderly.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  6 09:34:09 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: api.tenderly.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  9 07:45:30 2026 GMT
+  hsts: null
+domains:
+- domain: tenderly.co
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
