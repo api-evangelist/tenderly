@@ -1,6 +1,18 @@
 name: Tenderly
 description: Tenderly is a Web3 development platform offering smart contract debugging, transaction simulation, virtual test environments, node RPC infrastructure, alerting, Web3 Actions serverless functions, and gas profiling across 80+ EVM-compatible blockchain networks.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenderly.png
 url: https://raw.githubusercontent.com/api-evangelist/tenderly/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
