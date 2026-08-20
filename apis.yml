@@ -105,6 +105,11 @@ apis:
     tags:
       - Alerts
       - Monitoring
+      - Webhook
+      - Notification
+    tags_raw:
+      - Alerts
+      - Monitoring
       - Webhooks
       - Notifications
     properties:
