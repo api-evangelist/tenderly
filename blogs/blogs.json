@@ -1,6 +1,6 @@
 {
   "url": "https://tenderly.co/blog/",
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "posts": [
     {
       "title": "Tenderly Is Now the Simulation Company for Onchain Operations",
@@ -36,20 +36,18 @@
   "repo": "tenderly",
   "feeds": [
     {
-      "source": "https://tenderly.co/blog/rss/",
-      "feed_url": "https://tenderly.co/blog/rss/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://dashboard.tenderly.co/login",
       "feed_url": "https://dashboard.tenderly.co/login",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://tenderly.co/blog/rss/",
+      "feed_url": "https://tenderly.co/blog/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
   "post_count": 17,
