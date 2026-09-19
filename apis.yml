@@ -47,6 +47,12 @@ apis:
   humanURL: https://docs.tenderly.co/reference/api
   baseURL: https://api.tenderly.co/api/v2
   tags:
+  - Simulation
+  - Alerts
+  - Smart Contracts
+  - Wallets
+  - Web3 Actions
+  tags_raw:
   - Simulations
   - Alerts
   - Smart Contracts
@@ -87,6 +93,12 @@ apis:
   humanURL: https://docs.tenderly.co/virtual-testnets/develop/rest-api
   baseURL: https://api.tenderly.co/api/v2
   tags:
+  - Virtual TestNets
+  - Forking
+  - Testing
+  - Environment
+  - Cross-Chain
+  tags_raw:
   - Virtual TestNets
   - Forking
   - Testing
