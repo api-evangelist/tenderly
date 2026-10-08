@@ -44,3 +44,23 @@ plans:
       - description: Web3 Actions timeout — 30 seconds default, up to 900 seconds
       - description: Web3 Actions package size — 40 MB maximum (including node_modules)
       - description: Web3 Actions memory — 128 MB RAM
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Console (Paid)
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
