@@ -47,9 +47,119 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Slack app
+- partner_name: DefiLlama Chainlist (extraRpcs.js)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.js
+  category: Public JSON-RPC node endpoint
+  contract_reference:
+    register: DefiLlama Chainlist (extraRpcs.js)
+    standard: JSON-RPC node endpoint listing
+    spec_file: null
+    role: public-rpc-operator
+    registered_name: tenderly
+    name_source: register
+    register_id: tenderly.co
+    matched_domain: tenderly.co
+    matched_by: domain
+    domain_source: rpc host
+    endpoints_sample:
+    - https://mainnet.gateway.tenderly.co
+    - https://virtual.mainnet.rpc.tenderly.co/5804dcf7-70e6-4988-b2b0-3672193e0c91
+    - https://gateway.tenderly.co/public/mainnet
+    chains_sample:
+    - Amoy
+    - Arbitrum Nova
+    - Arbitrum One
+    - Arbitrum Sepolia
+    - Avalanche C-Chain
+    - BOB
+    - Base
+    - Base Goerli Testnet
+    signal_note: 'listing only: per-chain entries are context, never counted; breadth is not credit; the register
+      certifies nothing, so no certified_products'
+    detected_by: sweep-blockchain-rpc.py
+    detected: '2026-10-18'
+    tracking_labels:
+    - 'yes'
+  detected_by: sweep-blockchain-rpc.py
+  first_seen: '2026-10-18'
+- partner_name: ethereum-lists/chains (chainid.network)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://chainid.network/chains.json
+  category: Public JSON-RPC node endpoint
+  contract_reference:
+    register: ethereum-lists/chains (chainid.network)
+    standard: JSON-RPC node endpoint listing
+    spec_file: null
+    role: public-rpc-operator
+    registered_name: tenderly
+    name_source: host label
+    register_id: tenderly.co
+    matched_domain: tenderly.co
+    matched_by: domain
+    domain_source: rpc host
+    endpoints_sample:
+    - https://mainnet.gateway.tenderly.co
+    - wss://mainnet.gateway.tenderly.co
+    - https://goerli.gateway.tenderly.co
+    chains_sample:
+    - Base
+    - Base Goerli Testnet
+    - Boba BNB Mainnet
+    - Boba BNB Testnet
+    - Boba Network
+    - Boba Sepolia
+    - Ethereum Mainnet
+    - Ethereum Sepolia
+    signal_note: 'listing only: per-chain entries are context, never counted; breadth is not credit; the register
+      certifies nothing, so no certified_products'
+    detected_by: sweep-blockchain-rpc.py
+    detected: '2026-10-18'
+  detected_by: sweep-blockchain-rpc.py
+  first_seen: '2026-10-18'
+- partner_name: Ethereum JSON-RPC (execution-apis)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: compatible
+  shape: ethereum-json-rpc
+  degree: listed
+  evidence_kind: register-listing
+  report_only: true
+  direction: partner-built
+  evidence: https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.js
+  note: an EVM chain's public RPC list carries this provider's endpoint; a listing, not a conformance test. REPORT
+    ONLY (compatible edges are never in depth or position)
+  contract_reference:
+    register: Chainlist / ethereum-lists EVM RPC listings
+    spec_file: https://github.com/ethereum/execution-apis
+    role: evm-json-rpc-endpoint
+    matched_domain: tenderly.co
+    endpoints_sample:
+    - https://mainnet.gateway.tenderly.co
+    - https://virtual.mainnet.rpc.tenderly.co/5804dcf7-70e6-4988-b2b0-3672193e0c91
+    signal_note: report only
+    detected_by: sweep-blockchain-rpc.py
+    detected: '2026-10-18'
+  detected_by: sweep-blockchain-rpc.py
+  first_seen: '2026-10-18'
 generated: '2026-10-14'
 method: searched
 checked:
+- https://chainid.network/chains.json
+- https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.js
+- https://github.com/cosmos/chain-registry
 - https://registry.modelcontextprotocol.io/v0/servers
 - slack/integrations/slack-integration-edges.yml
 source:
