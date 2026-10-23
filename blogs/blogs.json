@@ -1,6 +1,6 @@
 {
   "url": "https://tenderly.co/blog/",
-  "fetched": "2026-10-10T13:15:00Z",
+  "fetched": "2026-10-17T14:53:57Z",
   "posts": [
     {
       "title": "Tenderly Is Now the Simulation Company for Onchain Operations",
@@ -43,6 +43,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://blog.tenderly.co/feed/",
+      "feed_url": "https://blog.tenderly.co/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://tenderly.co/blog/rss/",
       "feed_url": "https://tenderly.co/blog/rss/",
       "title": "",
@@ -57,7 +64,7 @@
       "method": "none"
     }
   ],
-  "post_count": 20,
+  "post_count": 22,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
