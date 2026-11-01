@@ -64,43 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tenderly is a Web3 development platform providing smart contract debugging, transaction simulation, virtual test environments, production-grade node RPC infrastructure, real-time alerting, serverless Web3 Actions, and gas profiling across 80+ EVM-compatible blockchain networks.
+Tenderly is a Web3 development platform offering smart contract debugging, transaction simulation, virtual test environments, node RPC infrastructure, alerting, Web3 Actions serverless functions, and gas profiling across 80+ EVM-compatible blockchain networks.
 
-## APIs
+**Areas:** Web3 · Blockchain · Smart Contracts · Ethereum · EVM · Debugging · Simulation · Developer Tools
 
-| API | Description | Docs |
-|-----|-------------|------|
-| Tenderly REST API | Core REST API for projects, simulations, alerts, contracts, wallets, and Web3 Actions | [Docs](https://docs.tenderly.co/reference/api) |
-| Simulation API | Dry-run transactions before execution with decoded traces, gas estimates, and balance changes | [Docs](https://docs.tenderly.co/simulations) |
-| Virtual TestNets REST API | Create and manage production-mirroring virtual blockchain environments | [Docs](https://docs.tenderly.co/virtual-testnets/develop/rest-api) |
-| Node RPC | Production JSON-RPC across 80+ EVM networks with debug/trace support | [Docs](https://docs.tenderly.co/node) |
-| Alerts API | On-chain event monitoring with routing to Slack, webhooks, PagerDuty, and more | [Docs](https://docs.tenderly.co/alerts) |
-| Web3 Actions API | Deploy serverless JS/TS functions triggered by on-chain events | [Docs](https://docs.tenderly.co/web3-actions) |
+## Tenderly on APIs.io
 
-## Authentication
+Everything profiled for Tenderly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tenderly/](https://apis.io/providers/tenderly/)** — or go straight to one of the APIs or properties below.
 
-All REST API requests require an `X-Access-Key` header. Generate an access token from the Tenderly dashboard under Organization Settings > Access Tokens.
+### APIs (6)
 
-Base URL: `https://api.tenderly.co/api/v2`
+- [Tenderly REST API](https://apis.io/apis/tenderly/tenderly-rest-api/) — Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual…
+- [Tenderly Simulation API](https://apis.io/apis/tenderly/tenderly-simulation-api/) — Dry-run Ethereum and EVM transactions before execution to preview outcomes including asset and balance changes, gas estimates, decoded traces, state diffs,…
+- [Tenderly Virtual TestNets REST API](https://apis.io/apis/tenderly/tenderly-virtual-testnets-rest-api/) — Provision and manage production-mirroring virtual blockchain environments with state sync, unlimited faucets, cheatcodes, cross-chain bridge simulation, and…
+- [Tenderly Node RPC](https://apis.io/apis/tenderly/tenderly-node-rpc/) — Production-grade JSON-RPC node infrastructure supporting 80+ EVM networks including Ethereum, Arbitrum, Optimism, Polygon, Base, BSC, and Avalanche with…
+- [Tenderly Alerts API](https://apis.io/apis/tenderly/tenderly-alerts-api/) — Configure real-time on-chain event monitoring for smart contracts and wallets, and route alert notifications to email, Slack, Discord, webhooks, PagerDuty,…
+- [Tenderly Web3 Actions API](https://apis.io/apis/tenderly/tenderly-web3-actions-api/) — Deploy and manage serverless JavaScript/TypeScript functions triggered by on-chain or off-chain events, enabling custom monitoring automation, incident…
 
-## Pricing
+### Published properties
 
-Tenderly uses a consumption-based model measured in Tenderly Units (TU). The Free plan provides dashboard access and UI-only simulation. Paid Console plans include full API access and are custom-priced per contract based on networks, capacity, support, and history retention.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [Pricing](https://tenderly.co/pricing)
-- [Node RPC pricing details](https://docs.tenderly.co/node/pricing)
+#### MCP servers (1)
 
-## Links
+Model Context Protocol servers that expose the API to agents.
+
+- [tenderly](https://apis.io/servers/tenderly/tenderly/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tenderly Domain Security](https://apis.io/security/tenderly/tenderly-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/tenderly/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/tenderly/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/tenderly/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://tenderly.co)
 - [Documentation](https://docs.tenderly.co)
-- [GitHub](https://github.com/tenderly)
-- [CLI](https://github.com/Tenderly/tenderly-cli)
-- [Status](https://status.tenderly.co)
+- [Pricing](https://tenderly.co/pricing)
 - [Blog](https://blog.tenderly.co)
-- [Discord](https://discord.gg/fBvDJYR)
+- [Terms of service](https://tenderly.co/terms-of-service)
+- [Privacy policy](https://tenderly.co/privacy-policy)
 
-## Contact
+## API Evangelist rating
 
-- [Support](https://tenderly.co/contact)
-- [Sales](https://tenderly.co/contact)
+**Kin Score 27.5** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.3 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 39.3 |
+| Access clarity | 27.6 |
+
+**Agent readiness 30.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tenderly/](https://apis.io/providers/tenderly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tenderly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tenderly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
